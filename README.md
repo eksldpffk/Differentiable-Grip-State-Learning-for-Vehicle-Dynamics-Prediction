@@ -23,7 +23,9 @@ So the question is: **Can a vehicle dynamics model learn useful information abou
 3. The encoder produces a latent grip representation.
 4. The dynamics predictor uses the current state, control input, and latent grip state to predict the next vehicle state.
 5. Prediction error is used to train the full model end-to-end.
-
+<p align="center">
+   <img src= "assets/dif_pr_arc.png">
+</p>
 
 ## Behavior-gated grip update
 
